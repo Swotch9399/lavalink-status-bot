@@ -1,0 +1,34 @@
+{
+  "name": "lavalink-status-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaylanGzLn/lavalink-status-bot.git"
+  },
+  "keywords": [
+    "lavalink",
+    "erela",
+    "music",
+    "bot",
+    "discord",
+    "musicbot"
+  ],
+  "author": "TaylanGzLn",
+  "license ": "MIT",
+  "bugs": "https://github.com/TaylanGzLn/lavalink-status-bot/issues",
+  "homepage": "https://github.com/TaylanGzLn/lavalink-status-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.0.3",
+    "dotenv": "^16.0.1",
+    "erela.js": "^2.3.3",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "prettysize": "^2.0.0",
+    "systeminformation": "^5.12.1"
+  }
+}
