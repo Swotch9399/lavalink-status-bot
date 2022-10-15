@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 module.exports = {
-    token: process.env.TOKEN || "MTAxMzU2NjYyNTIxNzI0OTM0MA.G6jzf8.tuF5Y4-gty1gN01HvsxgITs-7SLNdHkGmMfhAA",  // your bot token
+    token: process.env.TOKEN || "MTAxMzU2NjYyNTIxNzI0OTM0MA.G67wKc.002a6bbiQO6OgxQNvyTv5xIU0vsqeOrF5_PaGQ",  // your bot token
     logs: process.env.LOGS || "1013569163110916217", // channel id for lavalink server status logs
    
     nodes: [
