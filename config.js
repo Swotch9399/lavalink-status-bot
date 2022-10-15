@@ -6,11 +6,11 @@ module.exports = {
    
     nodes: [
         {
-            host: process.env.NODE_HOST || "lava3.horizxon.studio",
-            identifier: process.env.NODE_ID || "public",
+            host: process.env.NODE_HOST || "https://lavalink-node1.herokuapp.com/",
+            identifier: process.env.NODE_ID || "private",
             port: parseInt(process.env.NODE_PORT || "80"),
-            password: process.env.NODE_PASSWORD || "horizxon.studio",
-            secure: parseBoolean(process.env.NODE_SECURE || "false"),
+            password: process.env.NODE_PASSWORD || "hawwonode01",
+            secure: parseBoolean(process.env.NODE_SECURE || "true"),
 
         }
     ],
