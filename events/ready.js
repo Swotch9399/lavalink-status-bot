@@ -18,7 +18,7 @@ module.exports = async (client) => {
 
     let cl = await si.currentLoad();
     const embed = new EmbedBuilder()
-        .setColor("#303136")
+        .setColor("#2B2D31")
         .setDescription("Please wait for a minute!\nStatus is being ready!")
     channel.bulkDelete(10);
     channel.send({ embeds: [embed] }).then((msg) => {
@@ -51,7 +51,7 @@ Uptime : ${moment(node.stats.uptime).format(
                     { name: "**Discord API websocket ping**", value: `\`\`\`nim\n${Math.round(client.ws.ping)}ms\`\`\``, inline: true },
                     { name: "**Uptime**", value: `\`\`\`nim\n${uptimer(uptime)}\`\`\``, inline: true }
                 ])
-                .setColor("#303136")
+                .setColor("#2B2D31")
                 .setFooter({ text: `Update at ` })
                 .setTimestamp(Date.now());
             msg.edit({ embeds: [rembed] });

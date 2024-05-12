@@ -8,10 +8,9 @@ module.exports = {
         {
             host: process.env.NODE_HOST || "localhost",
             identifier: process.env.NODE_ID || "public",
-            port: parseInt(process.env.NODE_PORT || "80"),
-            password: process.env.NODE_PASSWORD || "localhost",
-            secure: parseBoolean(process.env.NODE_SECURE || "false"),
-
+            port: parseInt(process.env.NODE_PORT || "443"),
+            password: process.env.NODE_PASSWORD || "youshallnotpass",
+            secure: parseBoolean(process.env.NODE_SECURE || "true"),
         }
     ],
 
