@@ -1,7 +1,6 @@
 const { Client, GatewayIntentBits, Partials } = require("discord.js");
 const { Manager } = require("erela.js");
 const { readdirSync } = require("node:fs");
-const keep_alive = require('./keep_alive.js');
 require("dotenv").config();
 const client = new Client({
     intents: [
