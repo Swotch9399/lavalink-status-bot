@@ -11,7 +11,7 @@ module.exports = {
             port: parseInt(process.env.NODE_PORT || "443"),
             password: process.env.NODE_PASSWORD || "youshallnotpass",
             secure: parseBoolean(process.env.NODE_SECURE || "true"),
-            version: parseBoolean(process.env.NODE_VERSION || "v4"),
+            version: process.env.NODE_VERSION || "v4",
             usePathVersion: parseBoolean(process.env.NODE_USEPATHVERSION || "false"),
         }
     ],
