@@ -12,7 +12,7 @@ module.exports = {
             password: process.env.NODE_PASSWORD || "youshallnotpass",
             secure: parseBoolean(process.env.NODE_SECURE || "true"),
             version: process.env.NODE_VERSION || "v4",
-            usePathVersion: parseBoolean(process.env.NODE_USEPATHVERSION || "false"),
+            usePathVersion: parseBoolean(process.env.NODE_USEPATHVERSION || "false")
         }
     ],
 
