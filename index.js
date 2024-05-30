@@ -1,6 +1,7 @@
 const { Client, GatewayIntentBits, Partials } = require("discord.js");
 const { Manager } = require("erela.js");
 const { readdirSync } = require("node:fs");
+const keep_alive = require('./keep_alive.js');
 require("dotenv").config();
 const client = new Client({
     intents: [
@@ -40,3 +41,16 @@ process.on('uncaughtException', (err, origin) => {
 process.on('uncaughtExceptionMonitor', (err, origin) => {
     console.log(err, origin);
 });
+
+const express = require('express');
+const app = express();
+const port = 10000;
+
+app.get('/', (req, res) => {
+  res.sendStatus(200);
+});
+
+app.listen(port, () => {
+  console.log(port);
+});
+
