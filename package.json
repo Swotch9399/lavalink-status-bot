@@ -20,7 +20,6 @@
   ],
   "author": "Swotch9399",
   "license ": "MIT",
-  "bugs": "https://github.com/Swotch9399/lavalink-status-bot/issues",
   "homepage": "https://github.com/Swotch9399/lavalink-status-bot#readme",
   "dependencies": {
     "discord.js": "^14.0.3",
