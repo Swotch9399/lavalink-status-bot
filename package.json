@@ -28,6 +28,7 @@
     "moment": "^2.29.4",
     "moment-duration-format": "^2.3.2",
     "prettysize": "^2.0.0",
-    "systeminformation": "^5.12.1"
+    "systeminformation": "^5.12.1",
+    "express": "^4.18.2"
   }
 }
