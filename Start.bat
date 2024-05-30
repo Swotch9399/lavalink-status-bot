@@ -2,6 +2,6 @@
 
 :Start
 
-node --no-warnings index.js
+node index.js
 
 goto Start
