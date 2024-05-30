@@ -56,7 +56,7 @@ Uptime : ${moment(node.stats.uptime).format(
                 .setTimestamp(Date.now());
             msg.edit({ embeds: [rembed] });
 
-        }, 2000);
+        }, 30000);
     })
 
 }
